@@ -81,7 +81,7 @@ data:
         sd: 66051
         sst: 1
       type: IPv4
-    supi: imsi-208930000000003
+    supi: imsi-208930000000001
     gnbSearchList:
       - gnb-service
 
@@ -114,7 +114,7 @@ data:
         sd: 1122867
         sst: 1
       type: IPv4
-    supi: imsi-208930000000003
+    supi: imsi-208930000000002
     gnbSearchList:
       - gnb-service
 

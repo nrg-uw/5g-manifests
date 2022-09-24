@@ -14,8 +14,7 @@ data:
     mnc: "93"
     nci: "0x000000010"
     slices:
-    - sd: 66051
-      sst: 1
+    - sst: 1
     tac: 1
     
     linkIp: 0.0.0.0   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
@@ -25,5 +24,5 @@ data:
     
     # List of AMF address information
     amfConfigs:
-      - address: 129.97.168.71
+      - address: 129.97.168.161
         port: 38412
