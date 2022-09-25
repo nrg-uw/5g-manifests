@@ -45,6 +45,8 @@ spec:
           items:
           - key: free5gc-ue.yaml
             path: free5gc-ue.yaml
+          - key: free5gc-ue2.yaml
+            path: free5gc-ue2.yaml
           - key: wrapper.sh
             path: wrapper.sh
             mode: 0755
