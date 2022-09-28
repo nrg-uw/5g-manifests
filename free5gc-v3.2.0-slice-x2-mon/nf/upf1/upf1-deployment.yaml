@@ -64,7 +64,32 @@ spec:
             topologyKey: kubernetes.io/hostname
 
       containers:
-      - image: ghcr.io/niloysh/free5gc-aio:v3.2.0
+
+      - image: busybox
+        name: upf-stats
+        args: [/bin/sh, -c, 'while ! tail -f /var/log/upf_stats.log; do sleep 1 ; done']
+        volumeMounts:
+        - mountPath: /var/log/
+          name: varlog
+      
+      - image: ghcr.io/niloysh/upf-exporter:v2.0.0
+        name: upf-exporter
+        imagePullPolicy: Always
+        ports:
+        - name: metrics
+          containerPort: 9000
+
+        command: [ "/bin/bash", "-c", "--" ]
+        args: [ "python -u upf-exporter.py" ]
+
+        # command: [ "/bin/bash", "-c", "--" ]
+        # args: [ "while true; do sleep 30; done;" ]
+
+        volumeMounts:
+        - mountPath: /var/log/
+          name: varlog
+
+      - image: ghcr.io/niloysh/free5gc-upf:v3.2.0-pdrstats
         name: upf
         imagePullPolicy: Always
         ports:
