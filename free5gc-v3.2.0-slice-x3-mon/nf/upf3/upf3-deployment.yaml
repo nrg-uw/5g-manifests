@@ -15,30 +15,30 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: free5gc-upf2
+  name: free5gc-upf3
   labels:
     project: free5gc
     nf: upf
-    app: upf2
+    app: upf3
 spec:
   selector:
     matchLabels:
       project: free5gc
       nf: upf
-      app: upf2
+      app: upf3
   replicas: 1
   template:
     metadata:
       labels:
         project: free5gc
         nf: upf
-        app: upf2
+        app: upf3
       annotations:
         checksum/config: 1d4634e028343475c0a91b23beca2865486dd80260a705d18333c249e6d40f97
         k8s.v1.cni.cncf.io/networks: '[
-          { "name": "5gnetwork", "interface": "n3", "ips": [ "129.97.168.92/24" ] },
-          { "name": "5gnetwork", "interface": "n6", "ips": [ "129.97.168.102/24" ] },
-          { "name": "5gnetwork", "interface": "n4", "ips": [ "129.97.168.112/24" ] }
+          { "name": "5gnetwork", "interface": "n3", "ips": [ "129.97.168.93/24" ] },
+          { "name": "5gnetwork", "interface": "n6", "ips": [ "129.97.168.103/24" ] },
+          { "name": "5gnetwork", "interface": "n4", "ips": [ "129.97.168.113/24" ] }
           ]'
     spec:
 
@@ -117,7 +117,7 @@ spec:
       volumes:
       - name: upf-volume
         configMap:
-          name: upf2-configmap
+          name: upf3-configmap
           items:
           - key: upfcfg.yaml
             path: upfcfg.yaml
