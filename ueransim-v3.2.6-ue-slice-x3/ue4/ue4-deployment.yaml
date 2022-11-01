@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ueransim-ue
+  name: ueransim-ue4
   labels:
     app: ueransim
-    component: ue
+    component: ue4
 spec:
   selector:
     matchLabels:
       app: ueransim
-      component: ue
+      component: ue4
   replicas: 
   template:
     metadata:
       labels:
         app: ueransim
-        component: ue
+        component: ue4
     spec:
       containers:
       - image: ghcr.io/niloysh/ueransim:v3.2.6
@@ -25,8 +25,9 @@ spec:
         securityContext:
           capabilities:
             add: ["NET_ADMIN"]
-        command: [ "/bin/bash", "-c", "--" ]
-        args: [ "while true; do sleep 30; done;" ]
+        # command: [ "/bin/bash", "-c", "--" ]
+        # args: [ "while true; do sleep 30; done;" ]
+        command: [ "/ueransim/config/wrapper.sh" ]
         volumeMounts:
         - mountPath: /ueransim/config
           name: ue-volume
@@ -42,12 +43,12 @@ spec:
       volumes:
       - name: ue-volume
         configMap:
-          name: ue-configmap
+          name: ue4-configmap
           items:
           - key: free5gc-ue.yaml
             path: free5gc-ue.yaml
-          - key: free5gc-ue2.yaml
-            path: free5gc-ue2.yaml
+          - key: free5gc-ue4.yaml
+            path: free5gc-ue4.yaml
           - key: wrapper.sh
             path: wrapper.sh
             mode: 0755
