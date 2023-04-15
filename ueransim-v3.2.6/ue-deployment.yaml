@@ -20,7 +20,6 @@ spec:
     spec:
       containers:
       - image: ghcr.io/niloysh/ueransim:v3.2.6
-        imagePullPolicy: Always
         name: ue
         securityContext:
           capabilities:
