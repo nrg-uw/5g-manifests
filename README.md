@@ -13,35 +13,33 @@ Note that you need to change the `path` and `values` in the `free5gc-pv.yaml` fi
 
 5. The Free5GC core can be installed as follows:
 ```
-kubectl apply -f free5gc-v3.2.0 --recursive -n <namespace>
+kubectl apply -f free5gc-slice-x2 --recursive -n <namespace>
 ```
 and uninstalled using:
 ```
-kubectl delete -f free5gc-v3.2.0 --recursive -n <namespace>
+kubectl delete -f free5gc-slice-x2 --recursive -n <namespace>
 ```
-6. The RAN (gNB + UE) can be installed as follows:
+Once free5GC has been deployed, you should see the pods similar to the screenshot below.
+
+![free5gc pods](/images/free5gc-pods.png)
+
+6. The RAN (gNB) can be installed as follows:
 ```
-kubectl apply -f ueransim-v3.2.6 --recursive -n <namespace>
+kubectl apply -f ueransim-gnb --recursive -n <namespace>
 ```
 and uninstalled using:
 ```
-kubectl delete -f ueransim-v3.2.6 --recursive -n <namespace>
+kubectl delete -f ueransim-gnb --recursive -n <namespace>
 ```
-   
+6. Follow similar commands for deploying UEs. Before deployign the UEs, make sure you have entered UE subscription information in Free5GC mongodb database (e.g., using the Free5GC webui) to ensure UEs are authorized.
 
-# Which manifest file should I use?
-Directories with have the term `slice` in them contain manifests for creating multiple slices. For example, `slice-x2` represents two slices.
-## Single Slice
-- free5gc-v3.0.5 is working with ueransim-v3.1.3.
-- free5gc-v3.2.0 working with ueranim-v3.2.6.
-## Multiple Slices
-
-- free5gc-v3.0.5-slice-x2 has issues with SMF selection for the 2nd slice. 
-Contributions welcome for fixing it and/or finding out why the errors occur.
-- free5gc-v3.2.0-slice-x2 is working with ueransim-v3.2.6.
 
 # Running into issues!
 The manifest files are not working? Please see the [FAQ](FAQ.md).
+
+# Different slicing configurations?
+Check out the [develop branch](https://github.com/nrg-uw/5g-manifests/tree/develop) for various other slicing configurations. 
+The develop branch of this repository is used for ongoing development and may contain experimental, incomplete, or broken features. This is the branch where we experiment with different configurations and deployments. While we strive to keep it in a working state, there is no guarantee that it will always work as expected.
 
 
 # Credits
