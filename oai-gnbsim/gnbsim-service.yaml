@@ -1,0 +1,21 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gnbsim-service
+  labels:
+    app: gnbsim
+    component: gnbsim
+spec:
+  type: ClusterIP
+  ports:
+    - name: ngapp 
+      port: 38412
+      nodePort: null
+      protocol: SCTP
+    - name: http-api
+      port: 6000
+      protocol: TCP
+  selector:
+    app: gnbsim
+    component: gnbsim

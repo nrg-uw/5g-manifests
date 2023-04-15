@@ -1,0 +1,66 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gnbsim
+  labels:
+    app: gnbsim
+    component: gnbsim
+spec:
+  selector:
+    matchLabels:
+      app: gnbsim
+      component: gnbsim
+  replicas: 
+  template:
+    metadata:
+      labels:
+        app: gnbsim
+        component: gnbsim
+      annotations:
+        k8s.v1.cni.cncf.io/networks: '[
+          { "name": "5gnetwork", "interface": "n3", "ips": [ "192.168.10.23/27" ] },
+          { "name": "5gnetwork", "interface": "n2", "ips": [ "192.168.10.5/27" ] }
+          ]'
+    spec:
+      containers:
+      - image: ghcr.io/niloysh/oai-gnbsim:v1.0.0
+        name: gnbsim
+        
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN"]
+
+        env:
+        - name: POD_IP
+          valueFrom:
+            fieldRef:
+              fieldPath: status.podIP
+        
+        command: [ "/bin/bash", "-c", "--" ]
+        args: [ "while true; do sleep 30; done;" ]
+
+        # command: [ "/ueransim/config/wrapper.sh" ]
+
+        volumeMounts:
+        - mountPath: /gnbsim/config
+          name: gnbsim-volume
+        resources:
+          requests:
+            memory: "1024Mi"
+            cpu: "2000m"
+          limits:
+            memory: "2048Mi"
+            cpu: "3000m"
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      volumes:
+      - name: gnbsim-volume
+        configMap:
+          name: gnbsim-configmap
+          items:
+          - key: example-config.json
+            path: example-config.json
+          - key: wrapper.sh
+            path: wrapper.sh
+            mode: 0777
