@@ -70,7 +70,7 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-5dc8a3c8b8f5.js"></script>
   
 
-  <title>5g-manifests/create-free5gc-pv.sh at main · nrg-uw/5g-manifests</title>
+  <title>5g-manifests/delete-free5gc-pv.sh at main · nrg-uw/5g-manifests</title>
 
 
 
@@ -80,7 +80,7 @@
   <meta name="current-catalog-service-hash" content="581425c0eaaa5e5e53c5b736f58a14dbe5d38b0be425901738ad0670bd1d5a33">
 
 
-  <meta name="request-id" content="6AEF:5A46:1B9702A:27268A8:643B1820" data-turbo-transient="true" /><meta name="html-safe-nonce" content="5198c5ec4bf921899a9886efe0591c8b5f2aaacbf91375efaaca3e7d47c8829b" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ucmctdXcvNWctbWFuaWZlc3RzIiwicmVxdWVzdF9pZCI6IjZBRUY6NUE0NjoxQjk3MDJBOjI3MjY4QTg6NjQzQjE4MjAiLCJ2aXNpdG9yX2lkIjoiMzM1NTIzMzU5ODY3NTY4MDI5NyIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-turbo-transient="true" /><meta name="visitor-hmac" content="6e2e25381db42c105b6a4e9c0042ce9fa3c5b03114325da93e95032087a3420d" data-turbo-transient="true" />
+  <meta name="request-id" content="6AEF:5A46:1B98172:27280E4:643B1820" data-turbo-transient="true" /><meta name="html-safe-nonce" content="5198c5ec4bf921899a9886efe0591c8b5f2aaacbf91375efaaca3e7d47c8829b" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ucmctdXcvNWctbWFuaWZlc3RzIiwicmVxdWVzdF9pZCI6IjZBRUY6NUE0NjoxQjk4MTcyOjI3MjgwRTQ6NjQzQjE4MjAiLCJ2aXNpdG9yX2lkIjoiMzM1NTIzMzU5ODY3NTY4MDI5NyIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-turbo-transient="true" /><meta name="visitor-hmac" content="4cdbd730377d9193b8dfe0b8792fd8d808b0a452112c595e5aa9f77ac57c722f" data-turbo-transient="true" />
 
 
     <meta name="hovercard-subject-tag" content="repository:534399479" data-turbo-transient>
@@ -119,11 +119,11 @@
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/33d4a762567957833f6499e9773ff7c5f83b48798e1e0f6dbaee5619b93053f7/nrg-uw/5g-manifests" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="5g-manifests/create-free5gc-pv.sh at main · nrg-uw/5g-manifests" /><meta name="twitter:description" content="Kubernetes manifest files for 5G network. Contribute to nrg-uw/5g-manifests development by creating an account on GitHub." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/33d4a762567957833f6499e9773ff7c5f83b48798e1e0f6dbaee5619b93053f7/nrg-uw/5g-manifests" /><meta property="og:image:alt" content="Kubernetes manifest files for 5G network. Contribute to nrg-uw/5g-manifests development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="5g-manifests/create-free5gc-pv.sh at main · nrg-uw/5g-manifests" /><meta property="og:url" content="https://github.com/nrg-uw/5g-manifests" /><meta property="og:description" content="Kubernetes manifest files for 5G network. Contribute to nrg-uw/5g-manifests development by creating an account on GitHub." />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/33d4a762567957833f6499e9773ff7c5f83b48798e1e0f6dbaee5619b93053f7/nrg-uw/5g-manifests" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="5g-manifests/delete-free5gc-pv.sh at main · nrg-uw/5g-manifests" /><meta name="twitter:description" content="Kubernetes manifest files for 5G network. Contribute to nrg-uw/5g-manifests development by creating an account on GitHub." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/33d4a762567957833f6499e9773ff7c5f83b48798e1e0f6dbaee5619b93053f7/nrg-uw/5g-manifests" /><meta property="og:image:alt" content="Kubernetes manifest files for 5G network. Contribute to nrg-uw/5g-manifests development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="5g-manifests/delete-free5gc-pv.sh at main · nrg-uw/5g-manifests" /><meta property="og:url" content="https://github.com/nrg-uw/5g-manifests" /><meta property="og:description" content="Kubernetes manifest files for 5G network. Contribute to nrg-uw/5g-manifests development by creating an account on GitHub." />
       
     <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/31400952/ws?session=eyJ2IjoiVjMiLCJ1IjozMTQwMDk1MiwicyI6OTMyMDcwNzg4LCJjIjoxNjU3NDA2ODE2LCJ0IjoxNjgxNTk0NDAwfQ==--d02e306ea2e6675577a313073103b30bb61991ca37f910bdc83599cb4793b171" data-refresh-url="/_alive" data-session-id="851432a3fba4276af7df175fdcb394553805e75d601b1b44bf648858d0e9d5d1">
+      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/31400952/ws?session=eyJ2IjoiVjMiLCJ1IjozMTQwMDk1MiwicyI6OTMyMDcwNzg4LCJjIjozODk4MDg2NjQ4LCJ0IjoxNjgxNTk0NDEzfQ==--981dd28c07ea32eaf4596aac2d570653e1d21b3355911a1c65f46ba449f5a96d" data-refresh-url="/_alive" data-session-id="851432a3fba4276af7df175fdcb394553805e75d601b1b44bf648858d0e9d5d1">
       <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-71e98f781d79.js">
 
 
@@ -153,7 +153,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -246,7 +246,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="jqqbAivnat-I5w_Vsvtup3FIYMfPqeFRTwds8Hy3zEJIvnIGMmYP2PhJKk3YcLUhGQMy1VFg8FEyIV6IiHYcAg" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="e8rfykRz0MrN6aTKUX3GGbcVmE01mVXxnIsv3I4nVBi93jbOXfK1zb1HgVI79h2f317KX6tQRPHhrR2keuaEWA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -445,7 +445,7 @@
 
   <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;niloysh&quot;,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="d1b78f328a7582a477ccc09cdb5fdf42ab87550272b36a759354e75e7d9764e1" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;niloysh&quot;,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="4a3ff754f90ee1a8c3b2e33c3d91b2e4f95d111718a4b7d2c71af5f9d975a3b4" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -453,7 +453,7 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/31400952?s=40&amp;v=4" width="20" height="20" alt="@niloysh" />
       niloysh
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="_Ddch8Z_RafNyA_IjoGBmaowGurFx-PcISM9TD1iBLSru1yOjik5smfLaSC5fwybAMXgTkH_AD-8uS1KaD_3fw" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ge1NSJ9H2xnNfMIpoQ8zPnegTXtyfqFeWWogY2iG-ePWYU1B1xGnDGd_pMGW8b483VW33_ZGQr3E8DBlPdsKKA" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
@@ -488,7 +488,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzE0MDA5NTIiLCJ0IjoxNjgxNTk0NDAwfQ==--52dbdbe93af729dc9e51f7e1e6dcd31257138d4eee0d8a934d4711d4dfb596bc" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-fetch-indicator-src="/notifications/indicator" data-fetch-indicator-enabled="true" data-view-component="true" class="js-socket-channel">
+<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzE0MDA5NTIiLCJ0IjoxNjgxNTk0NDEzfQ==--4bd42047bdb00afd94d2e2ca55990b8793d2b23ad1b503d4cd1a7d1dd23fd292" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-fetch-indicator-src="/notifications/indicator" data-fetch-indicator-enabled="true" data-view-component="true" class="js-socket-channel">
   <a id="AppHeader-notifications-button" href="/notifications"
     class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
 
@@ -644,7 +644,7 @@
 
 
     
-    <notification-shelf-watcher data-base-url="https://github.com/notifications/beta/shelf" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzE0MDA5NTIiLCJ0IjoxNjgxNTk0NDAwfQ==--52dbdbe93af729dc9e51f7e1e6dcd31257138d4eee0d8a934d4711d4dfb596bc" data-view-component="true" class="js-socket-channel"></notification-shelf-watcher>
+    <notification-shelf-watcher data-base-url="https://github.com/notifications/beta/shelf" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzE0MDA5NTIiLCJ0IjoxNjgxNTk0NDEzfQ==--4bd42047bdb00afd94d2e2ca55990b8793d2b23ad1b503d4cd1a7d1dd23fd292" data-view-component="true" class="js-socket-channel"></notification-shelf-watcher>
   <div hidden data-initial data-target="notification-shelf-watcher.placeholder"></div>
 
 
@@ -661,7 +661,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh
+      return-to=/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh
       user-id="31400952"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -818,7 +818,7 @@
     <button aria-keyshortcuts="Meta+Delete" data-action="click:command-palette-input#onClear keypress:command-palette-input#onClear" data-target="command-palette-input.clearButton" id="command-palette-clear-button" hidden="hidden" type="button" data-view-component="true" class="btn-octicon command-palette-input-clear-button">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill">
     <path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"></path>
 </svg>
-</button>    <tool-tip id="tooltip-a1b1066d-251c-4ee3-aee0-57808aa728c4" for="command-palette-clear-button" data-direction="w" data-type="label" data-view-component="true" class="sr-only position-absolute">Clear Command Palette</tool-tip>
+</button>    <tool-tip id="tooltip-c74ba246-8988-404e-ac56-ab02e593e2e1" for="command-palette-clear-button" data-direction="w" data-type="label" data-view-component="true" class="sr-only position-absolute">Clear Command Palette</tool-tip>
 </div>
       </command-palette-input>
 
@@ -1638,7 +1638,7 @@
 </svg>Edit Pins
           <span class="dropdown-caret"></span>
 </summary>        <details-menu class="SelectMenu" role="menu">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="pin-organization-repo-update-form" data-target="pin-organization-repo.form" data-turbo="false" action="/nrg-uw/5g-manifests/pin_organization_repo" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="eZ01kyZKlTRObZTCtz92k1hUzn-H2IKyNpol_JFDL2bFt_dfvaoowN0ekZWdGvKE4juydxEER8cq5jWOYulUcA" autocomplete="off" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="pin-organization-repo-update-form" data-target="pin-organization-repo.form" data-turbo="false" action="/nrg-uw/5g-manifests/pin_organization_repo" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="mZcxJfTTI6lBSyD8MIqJdoFZ7Y19NLj0OQD9pX48OPslvfPpbzOeXdI4Jasarw1hOzaRhevofYElfO3XjZZD7Q" autocomplete="off" />
             <div class="SelectMenu-modal">
               <header class="SelectMenu-header">
                 <span class="SelectMenu-title">Pin to… </span>
@@ -1736,11 +1736,11 @@
   <li>
         <div data-view-component="true" class="d-flex">
         <div data-view-component="true" class="position-relative d-inline-block">
-    <a icon="repo-forked" id="fork-button" href="/nrg-uw/5g-manifests/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="099da1dae3b0b901026143e275630ee8e93670bce712ad21905c218245705bef" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" data-view-component="true" class="btn-sm btn BtnGroup-item border-right-0">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+    <a icon="repo-forked" id="fork-button" href="/nrg-uw/5g-manifests/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="ee9939047f4c7031b8f667eb38196c741f35c0ed21a8a31feb68d10476527f3a" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" data-view-component="true" class="btn-sm btn BtnGroup-item border-right-0">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
 </svg>Fork
           <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="3" data-view-component="true" class="Counter">3</span>
-</a>    <tool-tip id="tooltip-29a2f156-9d54-427e-8780-5a9e9c37018c" for="fork-button" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">Fork your own copy of nrg-uw/5g-manifests</tool-tip>
+</a>    <tool-tip id="tooltip-48ad92b7-2af1-407b-948e-132e7c04e3fd" for="fork-button" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">Fork your own copy of nrg-uw/5g-manifests</tool-tip>
 </div>
       <details group_item="true" id="my-forks-menu-534399479" data-view-component="true" class="details-reset details-overlay BtnGroup-parent d-inline-block position-relative">
               <summary aria-label="See your forks of this repository" data-view-component="true" class="btn-sm btn BtnGroup-item px-2 float-none">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
@@ -1755,13 +1755,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-8d448e">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-b0490b">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-8d448e"
+        id="filter-menu-b0490b"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -1803,10 +1803,10 @@
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-flex">
     <div data-view-component="true" class="starred BtnGroup flex-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/nrg-uw/5g-manifests/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MDKIWhaY_16ssdQj0DOSwbQ0bBKNZAVlAU6uMBLvSElObn6lsZQktv7BEInfm-0lL5jKJQtIjed0ppJCvQNACw" autocomplete="off" />
-          <input type="hidden" value="sdS9diHswxr7uB3xx8162UGjRh4h3QKKgUN0rWptxcLPiEuJhuAY8qnI2VvIZQU92g_gKafxigj0q0jfxYHNgA" data-csrf="true" class="js-confirm-csrf-token" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/nrg-uw/5g-manifests/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sEv9gpEdQtyHJ8JsvdskEWb0sBG_GAJt6kiV3j8m8EvOFwt9NhGZNNVXBsayc1v1_VgWJjk0iu-foKmskMr4CQ" autocomplete="off" />
+          <input type="hidden" value="5HtuHg9z3-aVBVbOOg1IC-pkYy9WQrTynORYeZkE2ImaJ5jhqH8EDsd1kmQ1pTfvccjFGNBuPHDpDGQLNujQyw" data-csrf="true" class="js-confirm-csrf-token" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="79e85813a517bf596f9a9f10ec9f2d26fc6e4b46bd776f816115a2b5e2fef3ad" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (2)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="8867ef8fdfe124054a34315c59a33ca53adbe18b9ed7a4d3e70b2690ad827846" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (2)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path>
 </svg><span data-view-component="true" class="d-inline">
               Starred
@@ -1824,13 +1824,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-8792ae">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-a87eb1">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-8792ae"
+        id="filter-menu-a87eb1"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -1851,9 +1851,9 @@
 </details>
 </div>
     <div data-view-component="true" class="unstarred BtnGroup flex-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/nrg-uw/5g-manifests/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QtSlQ4ilIjDG91qSfu6D4zZ2FCtbp6RAwBR1RWJ_dPQ-omLHTcZqDL11nE4CiV28BfXErmxu6Zhl2-7dAZ_TXA" autocomplete="off" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/nrg-uw/5g-manifests/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Yqt1vdT3-jKlfhanWb9Y_j1Oy6T-YgkHZncwqeQ6n8Ee3bI5EZSyDt780Hsl2IahDs0bIcmrRN_DuKsxh9o4aQ" autocomplete="off" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="e533ed7a6bcf1b75825bde6f04911fda76e521e795db3a0444732c75009ee1e1" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (2)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="004647c7e52c87deb985b1fad7ca82af520d55e272e5e48c6d854e40afaff18b" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (2)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
 </svg><span data-view-component="true" class="d-inline">
               Star
@@ -1871,13 +1871,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-afa408">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-c0d76c">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-afa408"
+        id="filter-menu-c0d76c"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2098,7 +2098,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/nrg-uw/5g-manifests/blob/b2989d3baf1c96c10c1fa928747003ddacfecda6/create-free5gc-pv.sh">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/nrg-uw/5g-manifests/blob/b2989d3baf1c96c10c1fa928747003ddacfecda6/delete-free5gc-pv.sh">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2106,7 +2106,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="39da477c48128730781692ff1bd7c1c3490b0a9b493210d5084cc9006ae550d0">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="83e616b61dc39687728be11863433f71929206b6e59a655aa0211de829615302">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -2174,10 +2174,10 @@
     <create-repo-from-selector
       check-tag-name-exists-path="/nrg-uw/5g-manifests/branches/check_tag_name_exists"
     >
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/nrg-uw/5g-manifests/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3CUWGVl5UlJsQa8vyU_vmClVqM86zDmAkO_7TITtCvpLqr8EeeWEUlNb-Gc1Pwkh0119JdJgvccPhwT-WRum2Q" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/nrg-uw/5g-manifests/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="KHjFnUQnylgrtPT5CKMh6msQTLcyIk79EEHM73hxoGW_92yAZLscWBSuo7H008dTkRiZXdqOyrqPKTNdpYcMRg" />
         <input data-target="create-repo-from-selector.refName" type="hidden" name="name" value="{{ refName }}">
         <input type="hidden" name="branch"  value="main">
-        <input type="hidden" name="path_binary" value="Y3JlYXRlLWZyZWU1Z2MtcHYuc2g=">
+        <input type="hidden" name="path_binary" value="ZGVsZXRlLWZyZWU1Z2MtcHYuc2g=">
 
         <button
           class="SelectMenu-item wb-break-word"
@@ -2185,14 +2185,14 @@
           role="menuitem"
           data-index="{{ index }}"
           data-action="click:create-repo-from-selector#createBranch"
-          data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU_CREATE_BRANCH&quot;,&quot;repository_id&quot;:534399479,&quot;ref_name&quot;:&quot;{{ refName }}&quot;,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="754fd25adafb246a574edb3e3a524d7dfedb2429b0cfe610bd2f278503dea47e">
+          data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU_CREATE_BRANCH&quot;,&quot;repository_id&quot;:534399479,&quot;ref_name&quot;:&quot;{{ refName }}&quot;,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="9782297bba337f8ea1c87da5e9001a10d522a463745f4a972bedfebbb7de19c7">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch SelectMenu-icon flex-self-baseline">
     <path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path>
 </svg>
           <div>
             <span class="text-bold">Create branch: {{ refName }}</span>
             <span class="color-fg-muted">from ‘main’</span>
-            <input type="hidden" value="bss-iFfuM9AuVJ-OIKo-ANmCc7gTJMlibIDPlPf5c8YwR9AeK7DXuIkbtDjWEMeHpX_c5ept2uT9kc--ctEqXg" data-csrf="true" data-target="create-repo-from-selector.checkTagNameExistsPathCsrf" />
+            <input type="hidden" value="EvPnpw9d1g5BqoZ32-f0J7vMjXnjpO71mA8z68kEPRBMfwkxcwMyZublrcEtXQ2gxzEiJBrt_XMJHjPBTCxkiA" data-csrf="true" data-target="create-repo-from-selector.checkTagNameExistsPathCsrf" />
           </div>
         </button>
 </form>    </create-repo-from-selector>
@@ -2211,7 +2211,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/nrg-uw/5g-manifests/blob/{{ urlEncodedRefName }}/create-free5gc-pv.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/nrg-uw/5g-manifests/blob/{{ urlEncodedRefName }}/delete-free5gc-pv.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
@@ -2253,7 +2253,7 @@
               
 
 <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/nrg-uw/5g-manifests/blob/{{ urlEncodedRefName }}/create-free5gc-pv.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
+  <a href="https://github.com/nrg-uw/5g-manifests/blob/{{ urlEncodedRefName }}/delete-free5gc-pv.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}" >
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
@@ -2314,7 +2314,7 @@
 
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/nrg-uw/5g-manifests"><span>5g-manifests</span></a></span></span><span class="separator">/</span><strong class="final-path">create-free5gc-pv.sh</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-turbo-frame="repo-content-turbo-frame" href="/nrg-uw/5g-manifests"><span>5g-manifests</span></a></span></span><span class="separator">/</span><strong class="final-path">delete-free5gc-pv.sh</strong>
   </h2>
     <a href="/nrg-uw/5g-manifests/find/main" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
@@ -2325,7 +2325,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="785a134331d64a3fbc6fd0b93929490620203ad09953796a79730224c6cc8807" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/nrg-uw/5g-manifests/find/main">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="ce9d50426cd03070e5585345b6b75c649e98666f8d343f6518648641e8cdda32" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" href="/nrg-uw/5g-manifests/find/main">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2337,13 +2337,13 @@
 </button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="create-free5gc-pv.sh" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="delete-free5gc-pv.sh" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/nrg-uw/5g-manifests/blob/b2989d3baf1c96c10c1fa928747003ddacfecda6/create-free5gc-pv.sh" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/nrg-uw/5g-manifests/blob/b2989d3baf1c96c10c1fa928747003ddacfecda6/delete-free5gc-pv.sh" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2374,7 +2374,7 @@
     <include-fragment src="/nrg-uw/5g-manifests/spoofed_commit_check/b2989d3baf1c96c10c1fa928747003ddacfecda6" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/nrg-uw/5g-manifests/contributors/main/create-free5gc-pv.sh" class="commit-loader">
+  <include-fragment src="/nrg-uw/5g-manifests/contributors/main/delete-free5gc-pv.sh" class="commit-loader">
     <div class="Box-header d-flex flex-items-center">
       <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
       <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -2410,20 +2410,20 @@
 
       <span class="file-mode" title="File mode">executable file</span>
       <span class="file-info-divider"></span>
-      42 lines (39 sloc)
+      10 lines (9 sloc)
       <span class="file-info-divider"></span>
-    1.03 KB
+    205 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/nrg-uw/5g-manifests/raw/b2989d3baf1c96c10c1fa928747003ddacfecda6/create-free5gc-pv.sh" href="/nrg-uw/5g-manifests/raw/main/create-free5gc-pv.sh" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
+        <a data-permalink-href="/nrg-uw/5g-manifests/raw/b2989d3baf1c96c10c1fa928747003ddacfecda6/delete-free5gc-pv.sh" href="/nrg-uw/5g-manifests/raw/main/delete-free5gc-pv.sh" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
       <span class="Button-label">Raw</span>
     </span>
 </a>  
-          <a data-permalink-href="/nrg-uw/5g-manifests/blame/b2989d3baf1c96c10c1fa928747003ddacfecda6/create-free5gc-pv.sh" href="/nrg-uw/5g-manifests/blame/main/create-free5gc-pv.sh" group_item="true" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
+          <a data-permalink-href="/nrg-uw/5g-manifests/blame/b2989d3baf1c96c10c1fa928747003ddacfecda6/delete-free5gc-pv.sh" href="/nrg-uw/5g-manifests/blame/main/delete-free5gc-pv.sh" group_item="true" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
       <span class="Button-label">Blame</span>
     </span>
 </a>  
@@ -2432,7 +2432,7 @@
     <div class="d-flex">
         
 <div class="ml-1" >
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/nrg-uw/5g-manifests/edit/main/create-free5gc-pv.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GD6rcWbn7xbHVGAEN1SWIyKNXcwxVURdOagRDHRvbZwdu4DyvoJdh4DoJ7IZnEK_1eoKcA7UreZ2WiWn0IoHTA" autocomplete="off" />
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/nrg-uw/5g-manifests/edit/main/delete-free5gc-pv.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="snR3wexTGEaGLPLw85hcQzMvlABfG6H0OlTuO4cJabuGVz3EtiQcH3DFtuVqqvW7j_uzD5eBaVnrqS3-eZsvZg" autocomplete="off" />
       <button title="Edit this file" data-hotkey="e" data-disable-with="" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
 </svg>
@@ -2442,7 +2442,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/nrg-uw/5g-manifests/edit/main/create-free5gc-pv.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="q7RtvjhFNmJRB_2_e3PZg3taAdhVzA1lbSRE4Xn_HFOuMUY94CCE8xa7uglVuw0fjD1WZGpN5N4i1nBK3Rp2gw" autocomplete="off" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/nrg-uw/5g-manifests/edit/main/delete-free5gc-pv.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="P2aJGU4CIaVkJslUrogwXyP-UV5S1PMWlVJ8kQMrRw8LRcMcFHUl_JLPjUE3upmnnyp2UZpOO7tEr79U_bkB0g" autocomplete="off" />
               <button title="Edit this file" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -2450,7 +2450,7 @@
               <div class="mr-5 no-wrap">Open in github.dev</div>
               <div class="color-fg-muted">.</div>
 </a>
-            <a data-platforms="windows,mac" aria-label="Open this file in GitHub Desktop" href="x-github-client://openRepo/https://github.com/nrg-uw/5g-manifests?branch=main&amp;filepath=create-free5gc-pv.sh" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
+            <a data-platforms="windows,mac" aria-label="Open this file in GitHub Desktop" href="x-github-client://openRepo/https://github.com/nrg-uw/5g-manifests?branch=main&amp;filepath=delete-free5gc-pv.sh" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
               Open in GitHub Desktop
 </a>        </div>
       </div>
@@ -2461,10 +2461,10 @@
 
         
 <div >
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/nrg-uw/5g-manifests/raw/b2989d3baf1c96c10c1fa928747003ddacfecda6/create-free5gc-pv.sh" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/nrg-uw/5g-manifests/raw/b2989d3baf1c96c10c1fa928747003ddacfecda6/delete-free5gc-pv.sh" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="d5e9a06ff3da4d5710ac841b2374cd0886db766d0260faceae3e1a07449eadb6" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="e25b81584fc334ca4a80c9231f4bf427ce93d16c65e896f749a7873819f2d29d" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
@@ -2489,7 +2489,7 @@
 </remote-clipboard-copy></div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/nrg-uw/5g-manifests/delete/main/create-free5gc-pv.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7sRxEKmsdo1iMrgU40yFZzFwYrb4sSPLuDF2v5cuwHocItgPR8d_IP6ZLnAXlbzYSpF10nY64eC_X0AgjPR2sg" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/nrg-uw/5g-manifests/delete/main/delete-free5gc-pv.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="_xUBryCjo1QvtTpn79AE5GKrM4JUIzftTm5ilzgqm3Ol6ZRyBX0cBEdYoi0N3UnVTGZlCUi1eoOuljZVuQeYaA" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2517,20 +2517,20 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/nrg-uw/5g-manifests?branch=main&amp;filepath=create-free5gc-pv.sh">
+                   href="x-github-client://openRepo/https://github.com/nrg-uw/5g-manifests?branch=main&amp;filepath=delete-free5gc-pv.sh">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/nrg-uw/5g-manifests/raw/main/create-free5gc-pv.sh">
+            <a class="dropdown-item" href="/nrg-uw/5g-manifests/raw/main/delete-free5gc-pv.sh">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/nrg-uw/5g-manifests/raw/main/create-free5gc-pv.sh" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/nrg-uw/5g-manifests/raw/main/delete-free5gc-pv.sh" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/create-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="d5e9a06ff3da4d5710ac841b2374cd0886db766d0260faceae3e1a07449eadb6">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:534399479,&quot;originating_url&quot;:&quot;https://github.com/nrg-uw/5g-manifests/blob/main/delete-free5gc-pv.sh&quot;,&quot;user_id&quot;:31400952}}" data-hydro-click-hmac="e25b81584fc334ca4a80c9231f4bf427ce93d16c65e896f749a7873819f2d29d">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2553,20 +2553,20 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/nrg-uw/5g-manifests/blame/main/create-free5gc-pv.sh">
+              <a class="dropdown-item" href="/nrg-uw/5g-manifests/blame/main/delete-free5gc-pv.sh">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/nrg-uw/5g-manifests/edit/main/create-free5gc-pv.sh">Edit file</a>
+                <a class="dropdown-item" href="/nrg-uw/5g-manifests/edit/main/delete-free5gc-pv.sh">Edit file</a>
               </li>
                 <li>
                   <a data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:534399479,&quot;actor_id&quot;:31400952,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/" data-view-component="true" class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/nrg-uw/5g-manifests/delete/main/create-free5gc-pv.sh">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/nrg-uw/5g-manifests/delete/main/delete-free5gc-pv.sh">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2602,177 +2602,47 @@
 </svg>
 </span></template>
 
-  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="Shell" data-tagsearch-path="create-free5gc-pv.sh">
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="Shell" data-tagsearch-path="delete-free5gc-pv.sh">
         <tr>
           <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
           <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#!</span>/bin/bash</span></td>
         </tr>
         <tr>
           <td id="L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
-          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Create persistent volume for free5gc mongodb database</span></td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> [ <span class="pl-k">-z</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">$1</span><span class="pl-pds">&quot;</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span></td>
         </tr>
         <tr>
           <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
-          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Change name (i.e., free5gc-local-pv), path (i.e.,/home/n6saha/kubedata) </span></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Please provide a namespace as a parameter<span class="pl-pds">&quot;</span></span></td>
         </tr>
         <tr>
           <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
-          <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> and nodeAffinity (i.e., nuc2). Make sure path exists on given node</span></td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">exit</span> 1</td>
         </tr>
         <tr>
           <td id="L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
-          <td id="LC5" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">else</span></td>
         </tr>
         <tr>
           <td id="L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
-          <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Define variables</span></td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line">  NAMESPACE=<span class="pl-smi">$1</span></td>
         </tr>
         <tr>
           <td id="L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
-          <td id="LC7" class="blob-code blob-code-inner js-file-line">PV_NAME=<span class="pl-s"><span class="pl-pds">&quot;</span>free5gc-local-pv<span class="pl-pds">&quot;</span></span></td>
+          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">fi</span></td>
         </tr>
         <tr>
           <td id="L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
-          <td id="LC8" class="blob-code blob-code-inner js-file-line">PV_PATH=<span class="pl-s"><span class="pl-pds">&quot;</span>/home/n6saha/kubedata<span class="pl-pds">&quot;</span></span></td>
+          <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
-          <td id="LC9" class="blob-code blob-code-inner js-file-line">PV_NODE_AFFINITY=<span class="pl-s"><span class="pl-pds">&quot;</span>nuc2<span class="pl-pds">&quot;</span></span></td>
+          <td id="LC9" class="blob-code blob-code-inner js-file-line">kubectl delete pvc datadir-mongodb-0 -n <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">$NAMESPACE</span><span class="pl-pds">&quot;</span></span></td>
         </tr>
         <tr>
           <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
-          <td id="LC10" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
-          <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Check if required variables are set</span></td>
-        </tr>
-        <tr>
-          <td id="L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
-          <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> [ <span class="pl-k">-z</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">$PV_NAME</span><span class="pl-pds">&quot;</span></span> ] <span class="pl-k">||</span> [ <span class="pl-k">-z</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">$PV_PATH</span><span class="pl-pds">&quot;</span></span> ] <span class="pl-k">||</span> [ <span class="pl-k">-z</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">$PV_NODE_AFFINITY</span><span class="pl-pds">&quot;</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span></td>
-        </tr>
-        <tr>
-          <td id="L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
-          <td id="LC13" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>One or more required variables are not set.<span class="pl-pds">&quot;</span></span></td>
-        </tr>
-        <tr>
-          <td id="L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
-          <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Please set PV_NAME, PV_PATH, and PV_NODE_AFFINITY to valid values.<span class="pl-pds">&quot;</span></span></td>
-        </tr>
-        <tr>
-          <td id="L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
-          <td id="LC15" class="blob-code blob-code-inner js-file-line">  <span class="pl-c1">exit</span> 1</td>
-        </tr>
-        <tr>
-          <td id="L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
-          <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-k">fi</span></td>
-        </tr>
-        <tr>
-          <td id="L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
-          <td id="LC17" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
-          <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Create persistent volume</span></td>
-        </tr>
-        <tr>
-          <td id="L19" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
-          <td id="LC19" class="blob-code blob-code-inner js-file-line">kubectl apply -f - <span class="pl-s"><span class="pl-k">&lt;&lt;</span><span class="pl-k">EOF</span></span></td>
-        </tr>
-        <tr>
-          <td id="L20" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
-          <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-s">apiVersion: v1</span></td>
-        </tr>
-        <tr>
-          <td id="L21" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
-          <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-s">kind: PersistentVolume</span></td>
-        </tr>
-        <tr>
-          <td id="L22" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
-          <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-s">metadata:</span></td>
-        </tr>
-        <tr>
-          <td id="L23" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
-          <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  name: <span class="pl-smi">$PV_NAME</span></span></td>
-        </tr>
-        <tr>
-          <td id="L24" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
-          <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  labels:</span></td>
-        </tr>
-        <tr>
-          <td id="L25" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
-          <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    project: free5gc</span></td>
-        </tr>
-        <tr>
-          <td id="L26" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
-          <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-s">spec:</span></td>
-        </tr>
-        <tr>
-          <td id="L27" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
-          <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  capacity:</span></td>
-        </tr>
-        <tr>
-          <td id="L28" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
-          <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    storage: 8Gi</span></td>
-        </tr>
-        <tr>
-          <td id="L29" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
-          <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  accessModes:</span></td>
-        </tr>
-        <tr>
-          <td id="L30" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
-          <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  - ReadWriteOnce</span></td>
-        </tr>
-        <tr>
-          <td id="L31" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
-          <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  persistentVolumeReclaimPolicy: Retain</span></td>
-        </tr>
-        <tr>
-          <td id="L32" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
-          <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  local:</span></td>
-        </tr>
-        <tr>
-          <td id="L33" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
-          <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    path: <span class="pl-smi">$PV_PATH</span></span></td>
-        </tr>
-        <tr>
-          <td id="L34" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
-          <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-s">  nodeAffinity:</span></td>
-        </tr>
-        <tr>
-          <td id="L35" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
-          <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-s">    required:</span></td>
-        </tr>
-        <tr>
-          <td id="L36" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
-          <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-s">      nodeSelectorTerms:</span></td>
-        </tr>
-        <tr>
-          <td id="L37" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
-          <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-s">      - matchExpressions:</span></td>
-        </tr>
-        <tr>
-          <td id="L38" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
-          <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        - key: kubernetes.io/hostname</span></td>
-        </tr>
-        <tr>
-          <td id="L39" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="39"></td>
-          <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          operator: In</span></td>
-        </tr>
-        <tr>
-          <td id="L40" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="40"></td>
-          <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          values:</span></td>
-        </tr>
-        <tr>
-          <td id="L41" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="41"></td>
-          <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-s">          - <span class="pl-smi">$PV_NODE_AFFINITY</span></span></td>
-        </tr>
-        <tr>
-          <td id="L42" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="42"></td>
-          <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-s"><span class="pl-k">EOF</span></span></td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line">kubectl delete pv free5gc-local-pv</td>
         </tr>
   </table>
 </div>
@@ -2798,7 +2668,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/nrg-uw/5g-manifests/blame/b2989d3baf1c96c10c1fa928747003ddacfecda6/create-free5gc-pv.sh">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/nrg-uw/5g-manifests/blame/b2989d3baf1c96c10c1fa928747003ddacfecda6/delete-free5gc-pv.sh">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/nrg-uw/5g-manifests/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
