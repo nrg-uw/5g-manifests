@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -7,28 +6,29 @@ metadata:
   labels:
     app: kpi-exporter
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: kpi-exporter
-  replicas: 1
   template:
     metadata:
       labels:
         app: kpi-exporter
     spec:
       containers:
-      
-      - image: ghcr.io/niloysh/kpi-exporter:v1.1.0
-        name: kpi-exporter
+      - name: kpi-exporter
+        image: ghcr.io/niloysh/kpi-exporter:v1.1.0
         imagePullPolicy: Always
+        command: [ "/bin/bash", "-c", "--" ]
+        args: [ "while true; do sleep 30; done;" ]
         ports:
         - name: metrics
           containerPort: 9000
-
-        # command: [ "/bin/bash", "-c", "--" ]
-        # args: [ "python -u kpi-exporter.py" ]
-
-        command: [ "/bin/bash", "-c", "--" ]
-        args: [ "while true; do sleep 30; done;" ]
-
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "200m"
+            memory: "256Mi"
       restartPolicy: Always
