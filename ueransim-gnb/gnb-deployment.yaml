@@ -19,8 +19,8 @@ spec:
         component: gnb
       annotations:
         k8s.v1.cni.cncf.io/networks: '[
-          { "name": "5gnetwork", "interface": "n3", "ips": [ "129.97.168.131/24" ] },
-          { "name": "5gnetwork", "interface": "n2", "ips": [ "129.97.168.141/24" ] }
+          { "name": "n2network", "interface": "n2", "ips": [ "10.10.2.101/24" ] },
+          { "name": "n3network", "interface": "n3", "ips": [ "10.10.3.101/24" ] }
           ]'
     spec:
       containers:

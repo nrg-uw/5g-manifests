@@ -1,0 +1,84 @@
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: n2network
+spec:
+  config: '{
+      "cniVersion": "0.3.1",
+      "type": "macvlan",
+      "master": "eno1",
+      "mode": "bridge",
+      "ipam": {
+        "type": "static",
+        "subnet": "10.10.2.0/24",
+        "exclude": [ "10.10.2.100/24" ],
+        "routes": [
+          { "dst": "0.0.0.0/0" }
+        ],
+        "gateway": "10.10.2.100"
+      }
+    }'
+---
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: n3network
+spec:
+  config: '{
+      "cniVersion": "0.3.1",
+      "type": "macvlan",
+      "master": "eno1",
+      "mode": "bridge",
+      "ipam": {
+        "type": "static",
+        "subnet": "10.10.3.0/24",
+        "exclude": [ "10.10.3.100/24" ],
+        "routes": [
+          { "dst": "0.0.0.0/0" }
+        ],
+        "gateway": "10.10.3.100"
+      }
+    }'
+---
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: n4network
+spec:
+  config: '{
+      "cniVersion": "0.3.1",
+      "type": "macvlan",
+      "master": "eno1",
+      "mode": "bridge",
+      "ipam": {
+        "type": "static",
+        "subnet": "10.10.4.0/24",
+        "exclude": [ "10.10.4.100/24" ],
+        "routes": [
+          { "dst": "0.0.0.0/0" }
+        ],
+        "gateway": "10.10.4.100"
+      }
+    }'
+---
+apiVersion: "k8s.cni.cncf.io/v1"
+kind: NetworkAttachmentDefinition
+metadata:
+  name: n6network
+spec:
+  config: '{
+      "cniVersion": "0.3.1",
+      "type": "macvlan",
+      "master": "eno1",
+      "mode": "bridge",
+      "ipam": {
+        "type": "static",
+        "subnet": "10.10.6.0/24",
+        "exclude": [ "10.10.6.100/24" ],
+        "routes": [
+          { "dst": "0.0.0.0/0" }
+        ],
+        "gateway": "10.10.6.100"
+      }
+    }'
+---

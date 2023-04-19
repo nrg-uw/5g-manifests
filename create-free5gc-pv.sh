@@ -4,9 +4,9 @@
 # and nodeAffinity (i.e., nuc2). Make sure path exists on given node
 
 # Define variables
-PV_NAME="free5gc-local-pv"
-PV_PATH="/home/n6saha/kubedata"
-PV_NODE_AFFINITY="nuc2"
+PV_NAME="free5gc-pv-n6saha"
+PV_PATH="/home/n6saha/free5gc-pv"
+PV_NODE_AFFINITY="nuc5"
 
 # Check if required variables are set
 if [ -z "$PV_NAME" ] || [ -z "$PV_PATH" ] || [ -z "$PV_NODE_AFFINITY" ]; then
@@ -31,6 +31,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   local:
     path: $PV_PATH
+  storageClassName: local-storage
   nodeAffinity:
     required:
       nodeSelectorTerms:

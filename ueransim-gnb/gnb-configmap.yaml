@@ -16,18 +16,18 @@ data:
     tac: 1              # Tracking Area Code
 
     linkIp: 0.0.0.0   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
-    ngapIp: 129.97.168.141   # gNB's local IP address for N2 Interface (Usually same with local IP)
-    gtpIp: 129.97.168.131    # gNB's local IP address for N3 Interface (Usually same with local IP)
+    ngapIp: 10.10.2.101   # gNB's local IP address for N2 Interface (Usually same with local IP)
+    gtpIp: 10.10.3.101    # gNB's local IP address for N3 Interface (Usually same with local IP)
 
     # List of AMF address information
     amfConfigs:
-      - address: 129.97.168.161
+      - address: 10.10.2.1
         port: 38412
 
     # List of supported S-NSSAIs by this gNB
     slices:
       - sst: 0x1
-        sd: 0x010203
+        sd: 0x000001
 
     # Indicates whether or not SCTP stream number errors should be ignored.
     ignoreStreamIds: true
