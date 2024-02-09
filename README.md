@@ -1,6 +1,8 @@
 # About
 This repository contains Kubernetes manifest files to run a 5G network consisting of 5G core network using the [Free5GC](https://github.com/free5gc/free5gc) project and RAN using the [UERANSIM](https://github.com/aligungr/UERANSIM) project.
 
+**Notice**: This repository is no longer maintained. For an updated installation guide for Free5GC, please visit our new repository at [free5gc-k8s](https://github.com/niloysh/free5gc-k8s).
+
 # Installation
 1. You need to have a working kubernetes cluster. Instructions for setting up a multi-node Kubernetes cluster is available in the [official docs](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/). Note that we are using `kubeadm=1.23.6-00 kubectl=1.23.6-00 kubelet=1.23.6-00` as this is the last version that supports Docker as a container runtime out of the box. If you are using the latest Kubernetes with docker, see instructions [here](https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker).
 
